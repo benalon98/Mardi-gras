@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  padding: 0.8rem;
+}
+.navbar-nav {
+  padding-left: 2% !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+}
+.nav-item {
+  margin-right: 20px;
+}
+
+#logo {
+  width: 65px;
+  height: 70px;
+}
+#heading-text {
+  font-family: "Pattaya", sans-serif;
+  font-size: 70px;
+  color: #f2f2f2;
+}
+
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(54, 54, 54, 0.2)),
+    url("https://www.hnoc.org/sites/default/files/content-photos/1975.117.5_web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.history {
+  background-color: rgb(233, 231, 231);
+  padding: 0 70px;
+}
+
+.page-container section {
+  overflow: auto;
+  padding: 0 70px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.page-container {
+  padding: 0 !important;
+  margin: 0 !important;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* faq page */
+#faq-section {
+  padding: 40px 90px;
+  background-color: #9453a6;
+  min-height: 100vh;
+}
+.accordion-button {
+  font-weight: 500;
+}
