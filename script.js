@@ -42,5 +42,3 @@ function validateForm() {
     return false;
   }
 }
-
-// scroll animation
